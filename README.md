@@ -5,6 +5,7 @@ instruction pour exécuter le jeu :
 python main.py
 
 amélioration :
+- ajouter des questions
 - faire une fichier question/response en dehors du fichier main.py
 - limiter le nombre de question poser à 10
 - faire ne sorte que les questions soient aléatoire
