@@ -7,7 +7,7 @@ questions = [
 score = 0
 for q in questions:
     response = input(q["question"] + " ")
-    if response.lower() == q["answer"].lower():
+    if response == q["answer"]:
         print("Correct !")
         score += 1
     else:
