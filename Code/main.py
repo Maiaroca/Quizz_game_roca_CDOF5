@@ -8,8 +8,8 @@ questions = [
 
 score = 0
 for q in questions:
-    response = input(q["question"] + " ")
-    if response == q["answer"]:
+    response = input(q["question".upper()] + " ")
+    if response == q["answer".upper()]:
         print("Correct !")
         score += 1
     else:
