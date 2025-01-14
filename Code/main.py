@@ -14,4 +14,5 @@ for q in questions:
         score += 1
     else:
         print("Faux !")
-print(f"Votre score : {score}/{len(questions)}")
+    print(f"Votre score : {score}/{q}")
+print(f"Votre score final: {score}/{len(questions)}")
